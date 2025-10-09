@@ -3,7 +3,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello, World! Server iriho. Murakaza neza!');
+  res.end('Hello! Ubu twavuguruye message — updated from local change.');
 });
 
 server.listen(3000, () => {
